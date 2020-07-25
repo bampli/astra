@@ -1,5 +1,3 @@
-print("arrived to main module")
-
 import os, sys
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__)) #  root dir

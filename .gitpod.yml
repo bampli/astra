@@ -1,6 +1,6 @@
 tasks:
-  - init: pip install Flask flask-cors cassandra-driver
-    command: FLASK_ENV=development FLASK_APP=__main__.py flask run
+  - init: pip3 install --no-cache-dir -r requirements.txt
+    command: FLASK_ENV=development FLASK_APP=app.py flask run
 
 ports:
   - port: 3000-8999
