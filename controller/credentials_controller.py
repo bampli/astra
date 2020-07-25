@@ -64,8 +64,3 @@ def test_credentials():
     finally:
         os.remove(temp_zip_path)
         return resp, status_code
-
-
-
-
-

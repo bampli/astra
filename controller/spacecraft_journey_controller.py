@@ -37,7 +37,3 @@ def journeys_for_spacecraft(spacecraft_name):
         result = astra_service.get_all_journeys_for_spacecraft(spacecraft_name)
 
         return jsonify(result.current_rows), 200
-
-
-
-

@@ -91,7 +91,3 @@ def temperature_reading_for_spacecraft_journey(spacecraft_name, journey_id):
                 'data': result.current_rows}
 
         return resp, 200
-
-
-
-
