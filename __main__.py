@@ -18,4 +18,5 @@ app.register_blueprint(spacecraft_instruments_controller)
 CORS(app)
 
 if __name__ == '__main__':
+    print("arrived to __main__")
     app.run()
