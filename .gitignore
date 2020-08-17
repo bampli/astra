@@ -1,4 +1,6 @@
 temp_bundle.zip
+configMap.yaml
+dashboard.admin-user*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
