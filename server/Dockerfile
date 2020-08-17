@@ -8,7 +8,7 @@ COPY . /usr/src/app
 
 ENV FLASK_ENV=development
 ENV FLASK_APP=app.py
-EXPOSE 5000
+EXPOSE 9090
 
 ENTRYPOINT ["python3"]
 CMD ["-m", "app"]
